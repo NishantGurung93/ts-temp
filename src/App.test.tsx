@@ -1,3 +1,4 @@
+// There's a contradictory rule around using 'act' but it adds too much noise in the terminal so I've done this as a bandaid solution
 /* eslint-disable testing-library/no-unnecessary-act */
 import { render, waitFor, act } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
